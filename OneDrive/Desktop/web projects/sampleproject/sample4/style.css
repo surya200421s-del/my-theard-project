@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+section{
+    width: 100%;
+    height: 90%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 4rem;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-family:sans-serif;
+    padding: 1rem 1rem;
+    border-radius: 30px;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: black;
+}
+nav h1{
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin: 0rem -1rem;
+}
+.list button{
+    background-color: transparent;
+    color: black;
+    font-size: 1rem;
+    border: 2px solid black;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    margin-top: -1rem;
+}
+h1 i{
+    display: inline-block;
+    rotate: 40deg;
+    margin: 0rem 0.8rem;
+}
+.center{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    display: flex;
+}
+.center-part-left{
+    width: 50%;
+    height: 100%;
+    padding: 3rem 4rem;
+}
+.center-part-right{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.center-part-left h1{
+    font-size: 5rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 5rem;
+}
+.center-part-left p{
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-family: sans-serif;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    width: 42rem;
+}
+.center-part-left button{
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.center-part-right img{
+    height: 100%;
+    position: absolute;
+    right: 4rem;
+}
+.center-bottem{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 4.6rem 4rem;
+   width: 100%;
+   height: 20%;
+  overflow-x: hidden;
+   gap: 5rem;
+   transform: translateX(0%);
+}
+.center-bottem img{
+    height: 3rem;
+}
+.two{
+    top: 18%;
+    position: relative;
+}
+.services{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3rem 4rem;
+    gap: 2rem;
+    background-color: coral;
+
+}
+.services h2{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    background-color: #9AE975;
+    padding: 0.5rem 0.5rem;
+}
+.services p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    width: 48rem;
+}
+.box-container{
+    width: 100%;
+    height: 130%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3rem 4rem;
+}
+.box-container .box{
+    flex-shrink: 0;
+    width: 40rem;
+    height: 20rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 0rem 0.5rem 0rem ;
+    display: flex;
+}
+.box .box-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2rem;
+}
+.box .box-right{
+    width: 50%;
+    height: 100%;
+}
+.box-left h2{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    background-color: #9AE975;
+   
+}
+.box-left h4{
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.box-left h4 i{
+    background-color: black;
+    color: #9AE975;
+    padding: 0.7rem 0.7rem;
+    border-radius: 50%;
+    font-size: 1.4rem;
+  margin: 1rem;
+}
+.box-right img{
+    height: 100%;
+}
+.black h2{
+    background-color: white;
+    color: black;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.black h4 i{
+    background-color: white;
+    color: black;
+}
+.three{
+    width: 100%;
+    height: 90%;
+    position: relative;
+    top:26rem
+}
+.main{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-box{
+    width: 90rem;
+    height: 20rem;
+    border-radius: 20px;
+    background-color:#eae0e0;
+    display: flex;
+}
+.main-box-left{
+    width: 50%;
+    height: 100%;
+    padding: 3rem 3rem;
+}
+.main-box-right{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.main-box-left h2{
+    font-size: 2.6rem;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.main-box-left p{
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: sans-serif;
+    width: 37rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.main-box-left button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 1rem 2rem;
+}
+.main-box-right img{
+    height: 100%;
+    position: absolute;
+    right: 3rem;
+}
+.four{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 10rem;
+}
+.study{
+    padding: 6rem 4rem ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.study h2{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 0.5rem 0.5rem;
+    background-color: #9AE975;
+}
+.study p{
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: sans-serif;
+    width: 54rem;
+}
+.container-2{
+    width: 100%;
+    height: 90%;
+    padding: 0rem 4rem;
+}
+.format-boder-box{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(29, 29, 29);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.format-box{
+    width: 33%;
+    height: 60%;
+    border-right: 1px solid white;
+    padding: 2rem 2rem;
+    color: white;
+}
+.format-box p{
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: sans-serif;
+    width: 28rem;
+    margin-bottom: 1rem;
+}
+.format-box h4{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #9AE975;
+}
+.format-box h4 i{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.boder-non{
+    border: none;
+}
+.main-center-bottem{
+    display: flex;
+    align-items: center;
+    gap: -1rem;
+}
