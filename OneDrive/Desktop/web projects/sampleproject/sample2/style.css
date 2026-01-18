@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Bangers&family=Basic&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color:hsl(344, 23%, 56%);
+    display: flex;
+}
+.main .part-1{
+    width: 25%;
+    height: 100%;
+}
+.main .part-2{
+    width: 65%;
+    height: 100%;
+    background: url("https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")no-repeat center center/cover;
+}
+.main .part-2::before{
+    content: "";
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.2;
+    background-color: hsl(346deg 17% 70%);;
+    z-index: 1;
+}
+.main .part-3{
+    width: 10%;
+    height: 100%;
+}
+.post{
+    width: 300px;
+    height: 400px;
+    background: url("https://images.unsplash.com/photo-1529680459049-bf0340fa0755?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")no-repeat center bottom/cover;
+    position: absolute;
+    top: 40%;
+    right: 81px;
+    transform: translate(0,-50px);
+}
+.text{
+    position: absolute;
+    width: 400px;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+.text h1{
+    font-size: 6rem;
+    font-weight: 800;
+    letter-spacing: 5px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Poetsen One", serif;
+}
+.vartical{
+    width: 100%;
+    position: absolute;
+    top:2%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    right: -95%;
+}
+.vartical h1{
+    font-size: 4rem;
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "Poetsen One", serif;
+    letter-spacing: 15px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
