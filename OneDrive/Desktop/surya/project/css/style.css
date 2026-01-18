@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+#home{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFBFBF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#home h1{
+    color: white;
+}
+#middle{
+    background-color: #8E64FF;
+    height: 90vh;
+}
+#middle section.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#middle section.wrapper section.left{
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+    
+}
+#middle section.wrapper section.left h3{
+    margin-bottom: 30px;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+#middle section.wrapper section.left p{
+    display: inline-block;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 90%;
+    font-family: sans-serif;
+}
+#middle section.wrapper section.left a.button{
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+}
+#middle section.wrapper section.right{
+    width: 400px;
+    height: 650px;
+}
+#middle section.wrapper section.right div.item{
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    background-color: white;
+}
+#middle section.wrapper section.right div.item:first-child{
+    margin-top: 120px
+}
+#gallery{
+    width: 100vw;
+    height: 100vh;
+    background-color: #00B515;
+}
+#gallery section.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+#gallery section.wrapper ul{
+ list-style: none;
+ height: 20vh;
+ width:  100vw;
+}
+#gallery section.wrapper ul li{
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+    background-color: white;
+}
+
